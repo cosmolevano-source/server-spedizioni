@@ -2,7 +2,6 @@ import express from "express";
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
-import fetch from "node-fetch"; // se Node >=18 puoi usare fetch nativo
 
 // ================= CONFIG =================
 const __filename = fileURLToPath(import.meta.url);
